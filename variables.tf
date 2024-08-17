@@ -19,7 +19,7 @@ variable "sql_db_name" {
 variable "admin_username" {
   type        = string
   description = "The administrator username of the SQL logical server."
-  default     = "azureadmin"
+  default     = "azureadminn"
 }
 
 variable "admin_password" {
