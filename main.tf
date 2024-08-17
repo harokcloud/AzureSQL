@@ -20,7 +20,7 @@ resource "random_password" "admin_password" {
   min_lower   = 1
   min_special = 1
 }
-
+ 
 locals {
   admin_password = try(random_password.admin_password[0].result, var.admin_password)
 }
